@@ -1,0 +1,55 @@
+:root
+{
+    --clr-bg: #254158;
+    --clr-lbg: #4f85b1;
+    --clr-primary: #F4FFFF;
+    --clr-link: #00D3CC;
+}
+
+h1, h2, h3, h4, h5
+{
+    color: var(--clr-primary);
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-lbg);
+    display: flex;
+    flex-direction: column;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    color: var(--clr-link);
+    text-decoration: none;
+}
+
+a:hover
+{
+    font-size: 155%;
+    text-decoration: underline;
+}
+
+.home
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 150%;
+    width: 100%;
+    background-image: linear-gradient(to top, var(--clr-bg), var(--clr-lbg));
+    flex-direction: column;
+    flex: 1;
+}

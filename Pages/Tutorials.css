@@ -1,0 +1,58 @@
+:root
+{
+    --clr-bg: #254158;
+    --clr-lbg: #4f85b1;
+    --clr-primary: #F4FFFF;
+    --clr-link: #00D3CC;
+}
+
+.tutorials_section
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 150%;
+    width: 100%;
+    background-image: linear-gradient(to top, var(--clr-bg), var(--clr-lbg));
+    flex-direction: column;
+    flex: 1;
+}
+
+.tutorials_list
+{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    list-style: none;
+
+    width: 50%;
+    height: 100%;
+}
+
+.tutorial
+{
+    background-color: var(--clr-bg);
+    padding: 45px;
+    border-radius: 10px;
+
+    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorial_link
+{
+    color: var(--clr-primary);
+    size: inherit;
+}
+
+.tutorial_link:hover
+{
+    size: 55%;
+}

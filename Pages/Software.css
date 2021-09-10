@@ -1,0 +1,43 @@
+:root
+{
+    --clr-bg: #254158;
+    --clr-lbg: #4f85b1;
+    --clr-primary: #F4FFFF;
+    --clr-link: #00D3CC;
+}
+
+.software_link
+{
+    color: var(--clr-primary);
+    size: inherit;
+}
+
+.software
+{
+    background-color: var(--clr-bg);
+    padding: 45px;
+    border-radius: 10px;
+
+    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.softwares_list
+{
+    margin-top: auto;
+    margin-bottom: auto;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    list-style: none;
+
+    width: 50%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+}

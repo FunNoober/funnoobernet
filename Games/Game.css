@@ -1,0 +1,68 @@
+:root {
+  --clr-bg: #254158;
+  --clr-lbg: #4f85b1;
+  --clr-primary: #f4ffff;
+  --clr-link: #00d3cc;
+}
+
+.game_image {
+  width: 500px;
+}
+
+button {
+  width: 100%;
+  font-size: 2em;
+  border: none;
+  border-radius: 5px;
+
+  color: var(--clr-lbg);
+  background-color: var(--clr-bg);
+
+  box-shadow: 0px 0px 15px black;
+
+  margin-left: 3px;
+  margin-right: 3px;
+
+  flex: 1;
+
+  padding: 10px;
+}
+
+button:hover {
+  font-size: 2.1em;
+  cursor: pointer;
+  text-decoration: underline;
+  box-shadow: 0px 0px 5px black;
+}
+
+.game_info {
+  display: flex;
+  flex-direction: row;
+
+  border: 5px solid var(--clr-lbg);
+  border-radius: 5%;
+  padding: 15px;
+  margin: 15px;
+
+  box-shadow: 0px 0px 15px black;
+}
+
+.game_info:hover {
+  box-shadow: 0px 0px 5px black;
+}
+
+.game_info_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game_info_text > p {
+  flex: 1;
+}
+
+.downloads {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
