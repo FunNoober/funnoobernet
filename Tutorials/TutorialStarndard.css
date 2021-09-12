@@ -1,41 +1,39 @@
-:root
-{
-    --clr-bg: #254158;
-    --clr-lbg: #4f85b1;
-    --clr-primary: #F4FFFF;
-    --clr-link: #00D3CC;
+:root {
+  --clr-bg: #254158;
+  --clr-lbg: #4f85b1;
+  --clr-primary: #f4ffff;
+  --clr-link: #00d3cc;
 }
 
-.section
-{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    background-image: linear-gradient(to top, var(--clr-bg), var(--clr-lbg));
-    flex-direction: column;
-    flex: 1;
+.section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-image: linear-gradient(to top, var(--clr-bg), var(--clr-lbg));
+  flex-direction: column;
+  flex: 1;
 }
 
-.description
-{
-    color: var(--clr-primary);
-    max-width: 55%;
-    text-align: center;
+.description {
+  color: var(--clr-primary);
+  max-width: 55%;
+  text-align: center;
 }
 
-.information
-{
-    text-align: center;
-    color: var(--clr-primary);
-    margin-top: 5px;
-    margin-bottom: 5px;
+.information {
+  text-align: center;
+  color: var(--clr-primary);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-video
-{
-    width: 960px;
-    height: 540px;
+.videos {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }

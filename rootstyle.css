@@ -9,7 +9,7 @@ p {
   color: var(--clr-primary);
 }
 
-.navbar {
+fn-header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,6 +102,9 @@ body {
   background-color: var(--clr-lbg);
   display: flex;
   flex-direction: column;
+
+  width: 100%;
+  height: 100%;
 }
 
 h1,

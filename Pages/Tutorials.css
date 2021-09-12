@@ -1,58 +1,52 @@
-:root
-{
-    --clr-bg: #254158;
-    --clr-lbg: #4f85b1;
-    --clr-primary: #F4FFFF;
-    --clr-link: #00D3CC;
+:root {
+  --clr-bg: #254158;
+  --clr-lbg: #4f85b1;
+  --clr-primary: #f4ffff;
+  --clr-link: #00d3cc;
 }
 
-.tutorials_section
-{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 150%;
-    width: 100%;
-    background-image: linear-gradient(to top, var(--clr-bg), var(--clr-lbg));
-    flex-direction: column;
-    flex: 1;
+.tutorials {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
 }
 
-.tutorials_list
-{
-    margin-top: 45px;
-    margin-bottom: 45px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+.tutorials_row {
+  display: flex;
+  flex-wrap: wrap;
 
-    list-style: none;
+  width: 100%;
+  height: 100%;
 
-    width: 50%;
-    height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.tutorial
-{
-    background-color: var(--clr-bg);
-    padding: 45px;
-    border-radius: 10px;
+.tutorial {
+  display: flex;
 
-    margin: 5px;
+  align-items: center;
+  justify-content: center;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--clr-bg);
+  margin: 15px;
+  font-size: 150%;
+  padding: 15px;
+  flex: 1;
+  width: 100%;
+
+  height: 50%;
+
+  border-radius: 15px;
+
+  box-shadow: 0px 0px 5px black;
 }
 
-.tutorial_link
-{
-    color: var(--clr-primary);
-    size: inherit;
-}
-
-.tutorial_link:hover
-{
-    size: 55%;
+.tutorial:hover {
+  font-size: 285%;
 }
