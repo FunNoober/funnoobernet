@@ -20,3 +20,6 @@ If you encounter a bug then make an issue. Make sure to describe the issue the b
 <h4>Other Links</h4>
 <a href="https://github.com/FunNoober/funnoobernet/blob/main/LICENSE">License</a> <br/>
 <a href="https://www.youtube.com/c/funnoobercodingforbeginners">Fun Noober's YouTube</a> <br/>
+
+<h4>Other Information</h4>
+All code in this repo that is produced by Fun Noober and any contributers is open source and will continue to be open source. All code that does not have an origin in this repo or another forks could be properitry and in that case, that code belongs to their respective owners.
