@@ -16,3 +16,7 @@ To contribute you can go to the file you want to make changes to and edit that f
 I am always looking for ways on how to make the website easier to maintain so please let me know. <br/>
 If you encounter a bug then make an issue. Make sure to describe the issue the best you can and if you can, include the page that is causing problems.
 <h3>Contributing Guide END</h3>
+
+<h4>Other Links</h4>
+<a href="https://github.com/FunNoober/funnoobernet/blob/main/LICENSE">License</a> <br/>
+<a href="https://www.youtube.com/c/funnoobercodingforbeginners">Fun Noober's YouTube</a> <br/>
