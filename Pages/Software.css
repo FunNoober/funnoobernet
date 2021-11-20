@@ -1,43 +1,52 @@
-:root
-{
-    --clr-bg: #254158;
-    --clr-lbg: #4f85b1;
-    --clr-primary: #F4FFFF;
-    --clr-link: #00D3CC;
+:root {
+  --clr-bg: #254158;
+  --clr-lbg: #4f85b1;
+  --clr-primary: #f4ffff;
+  --clr-link: #00d3cc;
 }
 
-.software_link
-{
-    color: var(--clr-primary);
-    size: inherit;
+.softwares {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
 }
 
-.software
-{
-    background-color: var(--clr-bg);
-    padding: 45px;
-    border-radius: 10px;
+.softwares_row {
+  display: flex;
+  flex-wrap: wrap;
 
-    margin: 5px;
+  width: 100%;
+  height: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-.softwares_list
-{
-    margin-top: auto;
-    margin-bottom: auto;
+.software {
+  display: flex;
 
-    display: grid;
-    grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
 
-    list-style: none;
+  background-color: var(--clr-bg);
+  margin: 15px;
+  font-size: 150%;
+  padding: 15px;
+  flex: 1;
+  width: 100%;
 
-    width: 50%;
-    height: 100%;
+  height: 50%;
 
-    align-items: center;
-    justify-content: center;
+  border-radius: 15px;
+
+  box-shadow: 0px 0px 5px black;
+}
+
+.software:hover {
+  font-size: 285%;
 }
