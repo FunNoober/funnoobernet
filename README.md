@@ -5,6 +5,7 @@ If I am able to purchase a domain then expect : https://funnoober.net
 
 <h3>Project Structure:</h3>
 The project is organized in such a way that is easy to sort through the source code. <br/>
+
 Primary Level : At the top level is the index files. This contains the primay page and the javascript file. The element.js file is a custom HTML element I created to easily reuse the navbar. <br/>
 
 Secondary Level : In the pages folder you have secondary pages. These pages are linked directly on the navigation bar. This folder contains all the HTML files for secondary pages and the CSS files to go along with them <br/>
