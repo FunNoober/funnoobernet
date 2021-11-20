@@ -6,8 +6,11 @@ If I am able to purchase a domain then expect : https://funnoober.net
 <h3>Project Structure:</h3>
 The project is organized in such a way that is easy to sort through the source code. <br/>
 Primary Level : At the top level is the index files. This contains the primay page and the javascript file. The element.js file is a custom HTML element I created to easily reuse the navbar. <br/>
+
 Secondary Level : In the pages folder you have secondary pages. These pages are linked directly on the navigation bar. This folder contains all the HTML files for secondary pages and the CSS files to go along with them <br/>
+
 Third Level : In the tutorials folder, you have pages that can only be accessed from the secondary tutorials page. This folder contains an HTML and a CSS file template to help the production of tutorial pages. On the TutorialStarndard.html you should never link to a video on GitHub but link to a YouTube video. <br/>
+
 Third Level : The games folder contains pages that can only be accessed from the games page. This folder has a template to help with future creation of making game pages. This folder as has another folder titled "Icons". This folder contains icons for the games. <br/>
 <h3>Project Structure END</h3>
 
