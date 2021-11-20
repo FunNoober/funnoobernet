@@ -9,7 +9,7 @@ p {
   color: var(--clr-primary);
 }
 
-fn-header {
+.fn-header {
   display: flex;
   align-items: center;
   justify-content: center;

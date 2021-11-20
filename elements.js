@@ -1,6 +1,6 @@
-class FNHEADER extends HTMLElement{
-    connectedCallback(){
-        this.innerHTML = `
+class FNHEADER extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
 
         <style>
         :root {
@@ -73,24 +73,24 @@ class FNHEADER extends HTMLElement{
           }
           </style>
 
-        <div class="navigation">
-            <h1 class="web_name">FN.NET</h1>
-            <ul class="nav_list">
-                <li class="navbar_item">
-                    <a href="/index.html" class="navbar_link">Home</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="/Pages/Games.html" class="navbar_link">Games</a>
-                </li>
-                <li class="navbar_item">
-                    <a class="navbar_link" href="/Pages/Software.html">Software</a>
-                </li>
-                <li class="navbar_item">
-                    <a class="navbar_link" href="/Pages/Tutorials.html">Tutorials</a>
-                </li>
-            </ul>
-        </div>`
-    }
+          <div class="navigation">
+          <h1 class="web_name">FN.NET</h1>
+          <ul class="nav_list">
+              <li class="navbar_item">
+                  <a href="/index.html" class="navbar_link">Home</a>
+              </li>
+              <li class="navbar_item">
+                  <a href="/Pages/Games.html" class="navbar_link">Games</a>
+              </li>
+              <li class="navbar_item">
+                  <a class="navbar_link" href="/Pages/Software.html">Software</a>
+              </li>
+              <li class="navbar_item">
+                  <a class="navbar_link" href="/Pages/Tutorials.html">Tutorials</a>
+              </li>
+          </ul>
+          </div>`;
+  }
 }
 
-customElements.define("fn-header", FNHEADER)
+customElements.define("fn-header", FNHEADER);
