@@ -13,7 +13,28 @@
 </head>
 
 <body>
-    <div class="fn-header">
+
+    <div id="password-field-container"
+        style="display: flex; align-items: center; justify-content: center; height: 100%;">
+        <input type="text" placeholder="Password" id="password-field" style="margin: 0; border: 0;">
+        <input type="button" value="Go" id="password-submit" style="border: 0; margin: 0;">
+    </div>
+
+    <script>
+        document.getElementById("password-submit").addEventListener("click", function () {
+            if (document.getElementById("password-field").value == "FunNoober@2021") {
+                alert("Password Correct!")
+            }
+            else {
+                let x = document.createElement("a")
+                x.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                x.target = "_blank"
+                x.click()
+            }
+        })
+    </script>
+
+    <div class="fn-header" style="display: none;">
         <div class="navigation">
             <h1 class="web_name">FN.NET</h1>
             <ul class="nav_list">
@@ -33,7 +54,7 @@
         </div>
     </div>
 
-    <div class="home">
+    <div class="home" style="display: none;">
         <div class="home_content">
             <h2>I Make Stuff</h2>
             <h5>Games, Software, Tutorials, & More Stuff</h5>
