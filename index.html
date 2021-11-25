@@ -14,6 +14,9 @@
 
 <body>
 
+    <h1>This is a prototype project so please enter a password to gain access to the site.</h1>
+    <a href="https://github.com/FunNoober/funnoobernet">Source Code</a>
+
     <div id="password-field-container"
         style="display: flex; align-items: center; justify-content: center; height: 100%;">
         <input type="text" placeholder="Password" id="password-field" style="margin: 0; border: 0;">
@@ -22,8 +25,15 @@
 
     <script>
         document.getElementById("password-submit").addEventListener("click", function () {
+            passwordProcessing()
+
+        })
+
+        function passwordProcessing() {
             if (document.getElementById("password-field").value == "FunNoober@2021") {
-                alert("Password Correct!")
+                document.getElementById("password-field-container").style = "display: none;"
+                document.getElementById("fn-header").style = "display: flex;"
+                document.getElementById("home").style = "display: flex;"
             }
             else {
                 let x = document.createElement("a")
@@ -31,10 +41,10 @@
                 x.target = "_blank"
                 x.click()
             }
-        })
+        }
     </script>
 
-    <div class="fn-header" style="display: none;">
+    <div class="fn-header" style="display: none;" id="fn-header">
         <div class="navigation">
             <h1 class="web_name">FN.NET</h1>
             <ul class="nav_list">
@@ -54,7 +64,7 @@
         </div>
     </div>
 
-    <div class="home" style="display: none;">
+    <div class="home" style="display: none;" id="home">
         <div class="home_content">
             <h2>I Make Stuff</h2>
             <h5>Games, Software, Tutorials, & More Stuff</h5>
